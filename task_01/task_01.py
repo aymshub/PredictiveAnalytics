@@ -8,11 +8,11 @@ try:
     print("Your BMI:", bmi)
 
     if bmi < 18.5:
-        print("underweight")
+        print("eat")
     elif 18.5 <= bmi <= 24.9:
         print("normal weight")
     else:
-        print("please consider a healthier lifestyle")
+        print("youre a lil chunky")
 
 except ValueError:
     print("Value is not an int or float")
