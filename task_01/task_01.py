@@ -3,7 +3,7 @@ try:
     a = int(input("Enter age: ")) 
     h = float(input("Enter height: "))  
     w = float(input("Enter weight: ")) 
-    bmi = int(w/(h/100))
+    bmi = int(w/(h/100)**2)
 
     print("Your BMI:", bmi)
 
