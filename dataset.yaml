@@ -1,0 +1,17 @@
+# Dataset configuration for your custom dataset
+path: ./Output/frames
+train: /home/aymsadmin/workspaces/label_project/Output/train # Path to training images
+val: /home/aymsadmin/workspaces/label_project/Output/val # Path to validation images
+
+nc: 10 # Number of classes
+names:
+  0: brocoli
+  1: blank
+  2: person
+  3: bicycle
+  4: car
+  5: motocycle
+  6: bus
+  7: truck
+  8: cat
+  9: dog
