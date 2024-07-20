@@ -13,8 +13,7 @@
 11.	Install requirements.txt: pip Install -r requirements.txt
 12.	If requirements doesn’t install use: pip Install *packagename*
 13.	Open VS Code: code .
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Creating YOLO Data Yourself
+    
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Delete Current YOLO Model if Exists
    - Remove files like yolov8n.pt
